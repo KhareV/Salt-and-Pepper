@@ -1,0 +1,92 @@
+{
+  "input_analysis": {
+    "noise_density": 0.0069688667819508944,
+    "salt_pepper_ratio": "0.00:1.00",
+    "spatial_uniformity": -0.5046453115910152,
+    "clustering_score": 0.04460966542750929
+  },
+  "method_performance": {
+    "median_3x3": {
+      "overall_score": 0.6341767373915478,
+      "psnr": 37.13134081461579,
+      "ssim": 0.8961731625645893,
+      "edge_preservation": 0.6251829903167476,
+      "texture_score": 0.40979391461037395,
+      "noise_reduction": 0.06837146447687481
+    },
+    "median_5x5": {
+      "overall_score": 0.6294574473369776,
+      "psnr": 36.68696122297587,
+      "ssim": 0.9423719291966273,
+      "edge_preservation": 0.5124619248456138,
+      "texture_score": 0.45330047903614973,
+      "noise_reduction": 0.08843620848507372
+    },
+    "median_adaptive": {
+      "overall_score": 0.6341767373915478,
+      "psnr": 37.13134081461579,
+      "ssim": 0.8961731625645893,
+      "edge_preservation": 0.6251829903167476,
+      "texture_score": 0.40979391461037395,
+      "noise_reduction": 0.06837146447687481
+    },
+    "namf": {
+      "overall_score": 0.5017330694002433,
+      "psnr": 31.380716721217212,
+      "ssim": 0.619649807596337,
+      "edge_preservation": 0.627625517678411,
+      "texture_score": 0.17825573098195172,
+      "noise_reduction": 0.03562948150782008
+    },
+    "morphological": {
+      "overall_score": 0.6214345814590001,
+      "psnr": 34.082739311877745,
+      "ssim": 0.9019964565033147,
+      "edge_preservation": 0.5854407518337539,
+      "texture_score": 0.5564528494486302,
+      "noise_reduction": 0.07191456105404337
+    },
+    "bilateral": {
+      "overall_score": 0.6345905501502819,
+      "psnr": 37.23480027347248,
+      "ssim": 0.9395728936173512,
+      "edge_preservation": 0.6032930023282164,
+      "texture_score": 0.3294485647274609,
+      "noise_reduction": 0.09730107784612474
+    },
+    "adaptive_hybrid": {
+      "overall_score": 0.613142583594865,
+      "psnr": 35.06290070620943,
+      "ssim": 0.7945862890355596,
+      "edge_preservation": 0.7333462858752531,
+      "texture_score": 0.41673490579484157,
+      "noise_reduction": 0.05724347152737319
+    },
+    "iterative_median": {
+      "overall_score": 0.6047616304990094,
+      "psnr": 35.258439304702776,
+      "ssim": 0.951254804812802,
+      "edge_preservation": 0.36380094792545214,
+      "texture_score": 0.5088124793331563,
+      "noise_reduction": 0.10083833157366984
+    }
+  },
+  "best_result": {
+    "method": "bilateral",
+    "score": 0.6345905501502819,
+    "improvement_metrics": {
+      "psnr_improvement_db": 5.650916122247338,
+      "ssim_improvement": 0.31843360314302427,
+      "relative_psnr_gain": 17.891770673899646
+    }
+  },
+  "processing_efficiency": {
+    "total_time": 16.49997878074646,
+    "phase_breakdown": {
+      "detection": 0.012998104095458984,
+      "denoising": 11.2641122341156,
+      "analysis": 4.883270740509033,
+      "scoring": 0.30608296394348145
+    }
+  }
+}
